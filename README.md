@@ -12,7 +12,25 @@ python schedule.py classes=classes.csv requirements=requirements.txt
 
 ## Development
 
+### Setup
+
+```
+brew install pyenv
+pyenv install 3.7.0
+pyenv virtualenv 3.7.0 class-scheduler-cli
+pyenv local class-scheduler-cli
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+```
+
+### Update dependencies
+
+make update-dependencies
+
+### PRs
+
 Write tests using pytest. Make PRs. :)
+
 
 ## TODO
 
