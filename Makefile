@@ -3,14 +3,11 @@ default: test
 install:
 	pip install -r requirements.txt
 
-update-dependencies:
-	sh package-update.sh
-
 test:
 	py.test
 
 format:
-	black
+	black .
 
 type-check:
 	mypy .

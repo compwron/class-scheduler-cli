@@ -23,9 +23,13 @@ pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
 
-### Update dependencies
+### Autoformat
 
-make update-dependencies
+`make format`
+
+### Run tests
+
+`make test`
 
 ### PRs
 
