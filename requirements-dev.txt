@@ -1,6 +1,6 @@
 -r requirements.txt
 bandit==1.4.0
-black=19.10b0
+black==19.10b0
 freezegun==0.3.8
 httpretty==0.8.14
 flake8==3.4.1
